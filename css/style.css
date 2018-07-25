@@ -1,0 +1,71 @@
+
+
+.background{
+    background-size: 100% 100%;
+    background-image:url("../images/background.jpg");
+    height: 1080px;
+    width: 1920px;
+    position: absolute;
+    z-index: -999999;
+    opacity: 0.5
+}
+
+h1 {
+    color:darkblue;
+    padding-left: 20px;
+}
+div.social {
+    border-top: 1px dotted gray ;
+    border-bottom: 1px dotted gray;
+    padding: 5px;
+    margin: 12px 0 0 0;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+div.social:hover{
+text-decoration: underline;
+
+}
+div.clanek{
+    font-family: "Bookman Old Style";
+    font-size: medium;
+    font-variant: historical-forms;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+div.pages{
+    color: red;
+}
+
+div.about ul li,
+div.about ul li a{
+    display: inline;
+    size: 50px 62px;
+
+}
+
+div.about ul li a{
+    color: red;
+    text-decoration: none;
+}
+
+div.about ul li a:hover {
+    text-decoration: underline;
+}
+
+div.about ul li:first-child  {
+    background: url(../images/logo.jpg) no-repeat;
+    background-size: 35px 35px;
+    padding-top: 13px;
+    padding-left: 56px;
+}
+
+div.logo{
+    margin: 0 auto;
+    display: block;
+    max-width: 300px;
+}
+
+
